@@ -13,7 +13,7 @@ const BodyTextStyle = css`
 	font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));
 	color: ${primaryBackgroundColor};
 	position: relative;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Rubik', sans-serif;
 	opacity: 0.8;
 `;
 
@@ -87,4 +87,7 @@ export const ListSubTitle = styled.p`
 	width: 70%;
 	${BodyTextStyle};
 	line-height: 22px;
+	@media only screen and (max-device-width: 767px) {
+		width: 100%;
+	}
 `;

@@ -6,7 +6,7 @@ const BodyTextStyle = css`
 	color: ${primaryBackgroundColor};
 	position: relative;
 	text-transform: uppercase;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Rubik', sans-serif;
 `;
 
 export const Container = styled.div`

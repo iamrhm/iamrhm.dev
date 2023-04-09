@@ -83,3 +83,15 @@ export const PortfolioData = {
 		email: `rahulmitra980@gmail.com`
 	}
 };
+
+export const meta = {
+	title: 'iamrhm: Dev Portfolio | Frontend/Fullstack Engineer',
+	description: 'A design-driven developer bent on making Web a beautiful place since 2017 with fullstack experience of IT industry.',
+	canonical: 'http://example.com/path/to/page',
+	meta: {
+		charset: 'utf-8',
+		name: {
+			keywords: 'iamrhm,portfolio,dev,frontend,frontend engineer'
+		}
+	}
+};

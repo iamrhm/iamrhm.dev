@@ -7,7 +7,7 @@ const BannerTextStyle = css`
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family: "Roboto Condense", sans-serif;
+	font-family: 'Rubik', sans-serif;
 `;
 
 export const Container = styled.div`

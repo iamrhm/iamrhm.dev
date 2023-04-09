@@ -1,4 +1,11 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useRef } from "react";
+
+const defaultOptions = {
+	root: null,
+	rootMargin: "0px",
+	threshold: 1.0
+};
 
 function useIntersectionApi(
 	DOMRef,
@@ -6,11 +13,6 @@ function useIntersectionApi(
 	intersectionRatio = 0.5,
 	customOptions = {}
 ) {
-	const defaultOptions = {
-		root: null,
-		rootMargin: "0px",
-		threshold: 1.0
-	};
 
 	const observer = useRef(null);
 

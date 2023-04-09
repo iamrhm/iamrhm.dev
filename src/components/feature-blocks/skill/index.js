@@ -85,7 +85,7 @@ function SkillSlider() {
 		}
 		dispatch({ type: "update-slides", payload: slides });
 		return () => {};
-	}, []);
+	}, [skills]);
 	return (
 		<SkillContainer>
 			{state.slides.map((slide, index) => {

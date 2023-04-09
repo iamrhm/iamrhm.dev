@@ -7,13 +7,14 @@ const Wrapper = styled.div`
 	height: 100%;
 `;
 
-export default function({ svgLayer, getMaskLayer }) {	
+export default function WrapperDIV({ svgLayer, getMaskLayer }) {
 	let divRef = useRef(null);
+
 	useEffect(() => {
 		if (divRef.current) {
 			animateSVG(divRef.current, svgLayer, getMaskLayer);
 		}
-	}, []);
+	}, [svgLayer, getMaskLayer]);
 
 	return <Wrapper ref={divRef}></Wrapper>;
 }

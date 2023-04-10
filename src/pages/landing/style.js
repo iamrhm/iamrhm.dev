@@ -89,22 +89,20 @@ const BodyTextStyle = css`
 `;
 
 export const InfoWrapper = styled.div`
-	width: 274px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 	align-self: flex-end;
 	justify-content: flex-start;
-	@media only screen and (min-device-width: 767px) {
-		width: 100%;
-	}
 `;
 
 export const InfoContainer = styled.div`
-	width: 65%;
+	width: 100%;
 	${BodyTextStyle};
 	text-align: right;
 	margin-top: 10px;
+	word-wrap: break-word;
 `;
 
 export const StyledPara = styled.p`

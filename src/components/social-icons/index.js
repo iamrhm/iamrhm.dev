@@ -29,7 +29,7 @@ function SocialButton({ data }) {
 		}
 	});
 	return (
-		<a href={data.url}>
+		<a href={data.url} target="_blank" rel="noopener noreferrer">
 			<StyledIconButton ref={iconRef}></StyledIconButton>
 		</a>
 	);

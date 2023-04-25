@@ -94,13 +94,13 @@ export const Item = styled.a`
 	flex-shrink: 0;
 	padding: 12px 16px;
 	text-decoration: none;
-
-	&:nth-child(3n + 3) {
-		margin-right: 0px;
-  }
-
 	@media only screen and (max-device-width: 767px) {
 		width: calc(80%);
+	}
+	@media only screen and (min-device-width: 767px) {
+		&:nth-child(3n + 3) {
+			margin-right: 0px;
+		}
 	}
 `;
 
